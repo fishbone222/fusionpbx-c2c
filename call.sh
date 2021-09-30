@@ -1,6 +1,6 @@
-server="fusionpbx.$(hostname -d)
-dest=$1
-key=$2
+server="fusionpbx.$(hostname -d)"
+key=$1
+dest=$2
 src_cid_name="c2c"
 src_cid_number=$dest
 dest_cid_name=

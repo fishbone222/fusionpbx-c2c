@@ -1,6 +1,6 @@
+source ./fusionpbx-c2c.key
 server="fusionpbx.$(hostname -d)"
-key=$1
-dest=$2
+dest=$1
 src_cid_name="c2c"
 src_cid_number=$dest
 dest_cid_name=

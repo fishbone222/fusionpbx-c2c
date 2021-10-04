@@ -1,2 +1,10 @@
 key=<my-c2c-fusionpbx-api-key>
 extension=<my-local-extension>
+src_cid_name="c2c"
+src_cid_number=$dest
+dest_cid_name=
+dest_cid_number=
+src=$extension
+auto_answer=false
+rec=false
+ringback=de-ring
